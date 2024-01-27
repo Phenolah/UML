@@ -1,0 +1,52 @@
+class Student {
+    constructor(userId, username, password) {
+        this.userId = userId;
+        this.username = username;
+        this.password = password;
+    }
+
+    enroll(course) {
+        // Implement course enrollment logic
+    }
+
+    viewCourses() {
+        // Implement logic to display available courses
+    }
+
+    trackProgress() {
+        // Implement logic to track progress within a course
+    }
+}
+
+class Instructor {
+    constructor(instructorId, username, password) {
+        this.instructorId = instructorId;
+        this.username = username;
+        this.password = password;
+    }
+
+    createCourse() {
+        // Implement logic to create a new course
+    }
+
+    editCourse() {
+        // Implement logic to edit an existing course
+    }
+
+    removeCourse() {
+        // Implement logic to remove a course
+    }
+}
+
+class Course {
+    constructor(courseId, title, description, price) {
+        this.courseId = courseId;
+        this.title = title;
+        this.description = description;
+        this.price = price;
+    }
+
+    getProgress() {
+        // Implement logic to retrieve course progress
+    }
+}
